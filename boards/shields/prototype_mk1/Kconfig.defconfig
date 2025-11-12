@@ -8,10 +8,9 @@ config ZMK_SPLIT_ROLE_CENTRAL
     default y
 endif
 
-if SHIELD_PROTOTYPE_MK1_LEFT || SHIELD_PROTOTYPE_MK1_RIGHT=
+if SHIELD_PROTOTYPE_MK1_LEFT || SHIELD_PROTOTYPE_MK1_RIGHT
 config ZMK_SPLIT
     default y
-endif
 
 
 if ZMK_DISPLAY
@@ -40,3 +39,4 @@ config LED_PWM
     default y
 endif
 
+endchoice
