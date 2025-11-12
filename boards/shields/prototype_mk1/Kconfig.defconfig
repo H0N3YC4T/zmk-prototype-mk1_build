@@ -11,7 +11,7 @@ endif
 if SHIELD_PROTOTYPE_MK1_LEFT || SHIELD_PROTOTYPE_MK1_RIGHT
 config ZMK_SPLIT
     default y
-
+endif
 
 if ZMK_DISPLAY
 config I2C
