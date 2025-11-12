@@ -18,12 +18,30 @@ LV_IMG_DECLARE(crystal_13);
 LV_IMG_DECLARE(crystal_14);
 LV_IMG_DECLARE(crystal_15);
 LV_IMG_DECLARE(crystal_16);
-
+LV_IMG_DECLARE(crystal_17);
+LV_IMG_DECLARE(crystal_18);
+LV_IMG_DECLARE(crystal_19);
+LV_IMG_DECLARE(crystal_20);
+LV_IMG_DECLARE(crystal_21);
+LV_IMG_DECLARE(crystal_22);
+LV_IMG_DECLARE(crystal_23);
+LV_IMG_DECLARE(crystal_24);
+LV_IMG_DECLARE(crystal_25);
+LV_IMG_DECLARE(crystal_26);
+LV_IMG_DECLARE(crystal_27);
+LV_IMG_DECLARE(crystal_28);
+LV_IMG_DECLARE(crystal_29);
+LV_IMG_DECLARE(crystal_30);
+LV_IMG_DECLARE(crystal_31);
+LV_IMG_DECLARE(crystal_32);
 
 const lv_img_dsc_t *anim_imgs[] = {
     &crystal_01, &crystal_02, &crystal_03, &crystal_04, &crystal_05, &crystal_06,
     &crystal_07, &crystal_08, &crystal_09, &crystal_10, &crystal_11, &crystal_12,
-    &crystal_13, &crystal_14, &crystal_15, &crystal_16,
+    &crystal_13, &crystal_14, &crystal_15, &crystal_16, &crystal_17, &crystal_18, 
+    &crystal_19, &crystal_20, &crystal_21, &crystal_22, &crystal_23, &crystal_24, 
+    &crystal_25, &crystal_26, &crystal_27, &crystal_28, &crystal_29, &crystal_30, 
+    &crystal_31, &crystal_32,
 };
 
 void draw_animation(lv_obj_t *canvas) {
@@ -31,7 +49,7 @@ void draw_animation(lv_obj_t *canvas) {
     lv_obj_t *art = lv_animimg_create(canvas);
     lv_obj_center(art);
 
-    lv_animimg_set_src(art, (const void **)anim_imgs, 16);
+    lv_animimg_set_src(art, (const void **)anim_imgs, 32);
     lv_animimg_set_duration(art, CONFIG_NICE_VIEW_GEM_ANIMATION_MS);
     lv_animimg_set_repeat_count(art, LV_ANIM_REPEAT_INFINITE);
     lv_animimg_start(art);
