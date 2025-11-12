@@ -5,7 +5,7 @@
  */
 
 #include <dt-bindings/zmk/matrix_transform.h>
-#include <layouts/H0N3YC4T/prototype_mk1.dtsi>
+#include "prototype_mk1_layout.dtsi"
 
 &h0n3yc4t_prototype_mk1_layout {
     transform = <&default_transform>;
