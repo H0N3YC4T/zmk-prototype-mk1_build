@@ -1,6 +1,5 @@
 manifest:
   defaults:
-    revision: v0.3
   remotes:
     - name: H0N3YC4T
       url-base: https://github.com/H0N3YC4T
