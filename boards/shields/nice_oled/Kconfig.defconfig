@@ -56,6 +56,30 @@ config NICE_OLED_POKEMON_ANIMATION_MS
     int "Animation length in milliseconds"
     default 4800
 
+config NICE_OLED_OMNISSIAH_ANIMATION
+    bool "Enable animation on peripheral"
+    default n
+
+config NICE_OLEDOMNISSIAH_ANIMATION_MS
+    int "Animation length in milliseconds"
+    default 4800
+
+config NICE_OLED_ULTRAMAR_ANIMATION
+    bool "Enable animation on peripheral"
+    default n
+
+config NICE_OLED_ULTRAMAR_ANIMATION_MS
+    int "Animation length in milliseconds"
+    default 4800
+
+config NICE_OLED_TRANSMUTATION_ANIMATION
+    bool "Enable animation on peripheral"
+    default n
+
+config NICE_OLED_TRANSMUTATION_ANIMATION_MS
+    int "Animation length in milliseconds"
+    default 4800
+
 config NICE_OLED_VIM
     bool "Enable static vim on peripheral"
     default n
