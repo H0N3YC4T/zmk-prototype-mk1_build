@@ -8,8 +8,6 @@ config ZMK_SPLIT_ROLE_CENTRAL
     default y
 endif
 
-
-
 if SHIELD_PROTOTYPE_MK1_LEFT || SHIELD_PROTOTYPE_MK1_RIGHT
 config ZMK_SPLIT
     default y
