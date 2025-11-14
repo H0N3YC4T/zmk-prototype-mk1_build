@@ -1,12 +1,11 @@
 file_format: "1"
-id: nice_oled
+id: nice_oled_prototype_mk1
 name: nice!oled
 type: shield
-url: https://github.com/mctechnology17/zmk-nice-oled
+url: https://github.com/H0N3YC4T/Keyboard_Prototype-Mk1
 requires:
   - i2c_oled
 features:
   - display
 siblings:
   - nice_oled
-  - nice_epaper

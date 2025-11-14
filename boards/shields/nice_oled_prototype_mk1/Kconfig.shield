@@ -1,2 +1,2 @@
-config SHIELD_NICE_OLED
+config SHIELD_NICE_OLED_PROTOTYPE_MK1
     def_bool $(shields_list_contains,nice_oled_prototype_mk1)
